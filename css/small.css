@@ -1,0 +1,90 @@
+@charset "utf-8";
+/* Small screen styles */
+
+@media screen and (max-width: 420px) {
+
+    .overview {
+        font-size: 9pt;
+    }
+
+    #footer {
+        font-size: 6pt;
+    }
+
+    /* ====================== Navigation ====================== */
+
+    nav h1 a {
+        font-size: 11pt;
+        letter-spacing: 6px;
+    }
+
+    #breadcrumb {
+        font-size: 11pt;
+    }
+
+    /* ====================== Map ====================== */
+
+    #map {
+        height: 320px;
+    }
+
+    .inside #map-container {
+        height: 300px;
+        top: 126px;
+    }
+
+    /* ====================== Restaurant Filtering ====================== */
+
+    .filter-options select {
+        width: 90%;
+    }
+
+    #restaurants-list > article {
+        display: block;
+        margin: 12px auto;
+        min-width: 260px;
+        width: 100%;
+        max-width: 330px;
+    }
+
+    #restaurants-list .restaurant-img {
+        min-height: 180px;
+    }
+
+    #restaurants-list h2 {
+        padding: 0 20px;
+    }
+
+    #restaurants-list p {
+        padding: 0 20px;
+    }
+
+    article a {
+        margin: 15px 0 20px 20px;
+    }
+
+    /* ====================== Restaurant Details ====================== */
+
+    #restaurant-container {
+        padding: 140px 20px 20px;
+    }
+
+    #restaurant-name {
+        font-size: 16pt;
+        margin: 15px 0;
+    }
+
+    #restaurant-address {
+        font-size: 11pt;
+        padding: 12px 0 0 12px;
+    }
+
+    #restaurant-hours {
+        padding: 12px;
+    }
+
+    #reviews-container {
+        padding: 0 16px;
+    }
+
+}

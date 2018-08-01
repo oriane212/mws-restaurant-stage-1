@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* Medium screen (and larger) styles */
+
+@media screen and (min-width: 700px) {
+
+    /* ====================== Map ====================== */
+
+    #map {
+        height: 500px;
+    }
+
+    /* ====================== Restaurant Filtering ====================== */
+
+    /* display select menus in-line and centered at a fixed width */
+
+    div.filter-options-container {
+        width: 700px;
+        margin: auto;
+    }
+
+    .filter-options select {
+        margin: 12px 0 12px 2px;
+        width: 46%;
+        display: inline-block;
+    }
+
+    /* ====================== Restaurant Details ====================== */
+
+    /* move restaurant details in-line with restaurant image */
+
+    #restaurant-img {
+        width: 55%;
+        display: inline-block;
+    }
+
+    div.details {
+        display: inline-block;
+        float: right;
+        width: 40%;
+    }
+
+    /* keep reviews centered at a fixed width */
+
+    #reviews-container {
+        width: 650px;
+        margin: auto;
+    }
+
+}
