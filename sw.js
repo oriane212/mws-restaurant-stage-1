@@ -70,7 +70,7 @@ self.addEventListener('fetch', function (event) {
     // return matching cache when offline and display offline message if failed
     } else {
         event.respondWith(
-            caches.match(event.request).then(function (response) {
+            caches.match(event.request, {ignoreSearch: true}).then(function (response) {
                 return response || fetch(event.request);
             }).catch(function () {
                 fetch('./offline.html');
