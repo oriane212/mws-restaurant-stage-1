@@ -1,5 +1,5 @@
 
-![demo of restaurant reviews app](restaurant-reviews.mp4)
+![demo of restaurant reviews app](restaurant-reviews.gif)
 
 
 # Mobile Web Specialist Certification Course
