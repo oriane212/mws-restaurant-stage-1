@@ -1,3 +1,7 @@
+
+![demo of restaurant reviews app](restaurant-reviews.mp4)
+
+
 # Mobile Web Specialist Certification Course
 ---
 #### _Three Stage Course Material Project - Restaurant Reviews_
